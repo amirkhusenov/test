@@ -48,13 +48,13 @@
 .settings-section {
   display: flex;
   flex-direction: column;
-  gap: 15px;
+  gap: 20px;
   padding: 15px 0;
   border-bottom: 0.5px solid var(--color-divider);
 }
 
 .settings-section:first-of-type {
-  gap: 15px;
+  gap: 20px;
 }
 
 .settings-row,
@@ -524,5 +524,15 @@ input:focus-visible {
 
   .settings-section {
     padding: 25px 0;
+  }
+}
+
+@media (max-width: 1440px) {
+  .settings-section {
+    gap: 15px;
+  }
+
+  .settings-section:first-of-type {
+    gap: 15px;
   }
 }
