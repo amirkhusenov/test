@@ -5,6 +5,7 @@ import { SettingsWindow } from '../components/ui/SettingsWindow'
 import { Slider } from '../components/ui/Slider'
 import { Switch } from '../components/ui/Switch'
 import { TextField } from '../components/ui/TextField'
+import './SettingsPage.css'
 
 type SettingsPageProps = {
   title: string

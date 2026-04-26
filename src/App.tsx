@@ -1,5 +1,4 @@
 import { useState } from 'react'
-import './App.css'
 import { SettingsPage } from './pages/SettingsPage'
 import type { SelectOption } from './components/ui/Select'
 
@@ -23,7 +22,7 @@ const optimizationOptions: SelectOption[] = [
 
 function App() {
   const [isScaleEnabled, setIsScaleEnabled] = useState(true)
-  const [scale, setScale] = useState(100)
+  const [scale, setScale] = useState(75)
   const [theme, setTheme] = useState('system')
   const [language, setLanguage] = useState('ru')
   const [blockBadProxy, setBlockBadProxy] = useState(true)
