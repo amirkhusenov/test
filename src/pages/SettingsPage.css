@@ -13,7 +13,7 @@
   display: flex;
   flex-direction: column;
   gap: 0;
-  padding: 35px;
+  padding: 25px;
   border: 0.5px solid var(--color-border);
   border-radius: 25px;
   background: var(--color-card);
@@ -141,7 +141,7 @@
   width: 50px;
   height: 25px;
   flex: 0 0 auto;
-  padding: 3px;
+  padding: 5px;
   border: 0;
   border-radius: 999px;
   background: rgba(255, 255, 255, 0.08);
@@ -511,12 +511,18 @@ input:focus-visible {
     place-items: start center;
   }
 
-  .settings-window {
-    padding: 25px;
-  }
-
   .settings-section {
     gap: 15px;
     padding: 15px 0;
+  }
+}
+
+@media (min-width: 1440px) {
+  .settings-window {
+    padding: 35px;
+  }
+
+  .settings-section {
+    padding: 25px 0;
   }
 }
