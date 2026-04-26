@@ -22,7 +22,7 @@ const optimizationOptions: SelectOption[] = [
 
 function App() {
   const [isScaleEnabled, setIsScaleEnabled] = useState(true)
-  const [scale, setScale] = useState(75)
+  const [scale, setScale] = useState(100)
   const [theme, setTheme] = useState('system')
   const [language, setLanguage] = useState('ru')
   const [blockBadProxy, setBlockBadProxy] = useState(true)
@@ -38,7 +38,7 @@ function App() {
         theme={theme}
         language={language}
         blockBadProxy={blockBadProxy}
-        dataPath="C:\\Users\\Username\\AppData\\Local\\Anonym"
+        dataPath="C:\Users\Username\AppData\Local\Anonym"
         optimization={optimization}
         apiPort={apiPort}
         themeOptions={themeOptions}
