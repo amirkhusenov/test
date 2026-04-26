@@ -38,7 +38,7 @@ function App() {
         theme={theme}
         language={language}
         blockBadProxy={blockBadProxy}
-        dataPath="C:\\Users\\Username\\AppData\\Local\\Anonym"
+        dataPath="C:\Users\Username\AppData\Local\Anonym"
         optimization={optimization}
         apiPort={apiPort}
         themeOptions={themeOptions}
